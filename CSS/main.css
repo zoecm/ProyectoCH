@@ -63,10 +63,6 @@ header .topper {
 main .div-home {
   display: flex;
   flex-direction: row; }
-  main .div-home .contenedor-home {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem; }
 
 main .div-img {
   display: flex;
