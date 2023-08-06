@@ -1,0 +1,35 @@
+header{
+    .topper{
+        background-color: #F8F9FA;
+        align-items: end;
+        display: flex;
+        margin: 0;
+        padding: 1rem;
+        justify-content: space-between;        
+    }
+}
+
+main{
+    .contenedor-precio{
+        display: flex;
+        margin-top: 4rem;
+        margin-left: 2rem;
+        margin-bottom: 4rem;
+        justify-content: center;
+
+        .card{
+            margin: 1rem;
+            display: inline-block
+    
+        }
+    }
+
+}
+@media screen and (min-width:1024px){
+    main{
+        .contenedor-precio{
+            display: flex;
+            
+        }
+    }
+}

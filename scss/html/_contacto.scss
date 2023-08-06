@@ -1,0 +1,41 @@
+header{
+    .topper{
+        background-color: #F8F9FA;
+        align-items: end;
+        display: flex;
+        margin: 0;
+        padding: 1rem;
+        justify-content: space-between;        
+    }
+}
+
+main{
+    .div-contacto{
+        border: solid;
+        margin: 1rem;
+        padding: 1rem;
+        display: flex;
+        .form-contacto{
+            .formulario-contacto{
+                .botones-contacto{
+                    margin: 1rem;
+                }
+            }
+        }
+    }
+    .paperplain{
+        display: flex;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+        justify-content: center;
+    }
+}
+@media screen and (min-width:1024px){
+    main{
+        .div-contacto{
+            display: flex;
+            
+        }
+    }
+}

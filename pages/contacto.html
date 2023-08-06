@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- link css-->
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Dunder Mifflin</title>
+</head>
+<body>
+    <header>
+      <div class="topper">
+        <p>
+          <svg id="i-mobile" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+            <path d="M21 2 L11 2 C10 2 9 3 9 4 L9 28 C9 29 10 30 11 30 L21 30 C22 30 23 29 23 28 L23 4 C23 3 22 2 21 2 Z M9 5 L23 5 M9 27 L23 27" />
+            </svg>
+            12-3456 7890
+        </p>
+
+        <p>
+         <svg id="i-mail" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+            <path d="M2 26 L30 26 30 6 2 6 Z M2 6 L16 16 30 6" />
+            </svg>
+            dunder@mifflin.com 
+        </p>
+
+        <p>
+            <svg id="i-location" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+            <circle cx="16" cy="11" r="4" />
+            <path d="M24 15 C21 22 16 30 16 30 16 30 11 22 8 15 5 8 10 2 16 2 22 2 27 8 24 15 Z" />
+            </svg>
+            Scranton, Pensilvania, EE.UU.
+        </p>
+      </div>
+        <nav class="navbar navbar-expand-lg bg-light ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">
+                <img src="../img/dmlogo.jpg" alt="Dunder Mifflin">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../pages/productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/precios.html">Precios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>          
+    </header>
+
+    <main>
+        <div class="div-contacto">
+            <div class="form-contacto">
+                <form class="formulario-contacto">
+                    <fieldset>
+                        <legend> Completa tus datos</legend>
+                        <div class="texto-contacto">
+                            <label for="">Nombre</label>
+                            <input type="text" placeholder="Nombre">
+                        </div>
+                        <div class="texto-contacto">
+                            <label for="">E-mail</label>
+                            <input type="email" placeholder="dunder@mifflin.com">
+                        </div>
+                        <div class="texto-contacto">
+                            <label for="">Telefono</label>
+                            <input type="email" placeholder="01-2345-6789">
+                        </div>
+                        <div class="botones-contacto">
+                            <button type="button" class="btn btn-success">Enviar</button>
+                            <button type="button" class="btn btn-secondary">Restablecer</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>   
+       
+        <div class="paperplain">
+             <img src="../img/paperplain.gif" alt="">
+       </div>
+      </main>
+
+    <footer>
+        <div class="contenedor-footer">
+        <div class="texto-footer">
+        <p>Todos los derechos reservados</p>
+        </div>
+        </div>
+    </footer>    
+
+    <!-- script js -->
+    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
